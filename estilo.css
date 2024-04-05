@@ -21,9 +21,12 @@ main{
 }
 
 
-
 .pink-header{
     display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
 
     background-color: rgba(253, 40, 206, 0.28);
 
@@ -43,40 +46,58 @@ main{
 
 }
 
-.left-image img{
+.pink-header div input{
 
-    width: 54px;
+    width: 100%;
 
-    height: 51px;
+    padding: 1rem;
 
-    margin-left: 30px;
+    border: 0;
 
+    background-color: rgb(235, 235, 235);
+
+
+}
+
+.pink-header div{
     display: flex;
 
     align-items: center;
 
-    position: relative;
+    justify-content: center;
+
+
+
 
 }
 
 .retangulo-cabecalho{
 
-    width: 1325px;
+    width: 80%;
 
     height: 70px;
 
     background-color: rgb(235, 235, 235); 
 
-    position: absolute;
-
-    top: 20px;
-
     margin-left: 200px;
 
     display: flex;
-
-    align-items: center;
-
+    <div class="left-image">
+    
+    <img src="imagens/logo.svg" alt="logo à esquerda">
+    
+    <div class="retangulo-cabecalho">
+        <img src="imagens/pesquisa.svg" alt="pesquisa">
+    </div>
+    
+    
+    
+    <div>
+    
+        <a href="index.html" class="link">Início</a>
+    
+    </div>
+    width: 20%;
 }
 
 .link{
@@ -117,10 +138,10 @@ main{
 
 
 .quadro img {
-
+    
     max-width: 100%; 
 
-    height: fit-content; 
+    height: fit-content;
 
 }
 
@@ -132,9 +153,9 @@ main{
     background-color: rgba(253, 40, 206, 0.28);
 
     padding: 20px;
+    
 
 }
-
 
 
 .left-images {
@@ -165,9 +186,23 @@ main{
     background-color: rgb(235, 235, 235);
 
     display: flex;
-
+    
     align-items: center;
-
+    <div class="left-image">
+    
+    <img src="imagens/logo.svg" alt="logo à esquerda">
+    
+    <div class="retangulo-cabecalho">
+        <img src="imagens/pesquisa.svg" alt="pesquisa">
+    </div>
+    
+    
+    
+    <div>
+    
+        <a href="index.html" class="link">Início</a>
+    
+    </div>
     justify-content: center;
 }
 
@@ -208,8 +243,18 @@ main{
     width: 1550px;
 
     background-color: rgb(235, 235, 235);
-    
-    
+}
+
+.ret2 input{
+    background-color: rgb(235, 235, 235);
+
+    border: 0;
+}
+
+.ret3 input{
+    background-color: rgb(235, 235, 235);
+
+    border: 0;
 }
 
 .baixo{

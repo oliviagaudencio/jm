@@ -1,0 +1,31 @@
+@media (max-width: 800px){
+    main.quadros{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 600px){
+    main.quadros{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media (max-width: 400px){
+    main.quadros{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    main.conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main.conteudo img {
+        width: 100%;
+    }
+}
+
+    
