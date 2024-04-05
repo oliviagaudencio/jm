@@ -66,9 +66,6 @@ main{
 
     justify-content: center;
 
-
-
-
 }
 
 .retangulo-cabecalho{
@@ -79,25 +76,10 @@ main{
 
     background-color: rgb(235, 235, 235); 
 
-    margin-left: 200px;
+    margin-left: 5rem;
 
     display: flex;
-    <div class="left-image">
-    
-    <img src="imagens/logo.svg" alt="logo à esquerda">
-    
-    <div class="retangulo-cabecalho">
-        <img src="imagens/pesquisa.svg" alt="pesquisa">
-    </div>
-    
-    
-    
-    <div>
-    
-        <a href="index.html" class="link">Início</a>
-    
-    </div>
-    width: 20%;
+     
 }
 
 .link{
@@ -108,6 +90,8 @@ main{
 
 
     font-size: 30px;
+
+    width: 20%;
 
 
 }
@@ -188,21 +172,7 @@ main{
     display: flex;
     
     align-items: center;
-    <div class="left-image">
     
-    <img src="imagens/logo.svg" alt="logo à esquerda">
-    
-    <div class="retangulo-cabecalho">
-        <img src="imagens/pesquisa.svg" alt="pesquisa">
-    </div>
-    
-    
-    
-    <div>
-    
-        <a href="index.html" class="link">Início</a>
-    
-    </div>
     justify-content: center;
 }
 
@@ -219,7 +189,38 @@ main{
     width: 902px;
 
     background-color: rgb(235, 235, 235)
+
 }
+
+.ret2 textarea{
+    width: 56rem;
+
+    height: 21rem;
+
+    margin-top: 2rem;
+
+    margin-left -3.7rem;
+
+    font-size: 1rem;
+
+    font-family:'Times New Roman', Times, serif;
+    
+    background-color: rgb(235, 235, 235);
+
+    border: 0;
+
+}
+
+.ret3 textarea{
+    width: 50rem;
+
+    background-color: rgb(235, 235, 235);
+
+    border: 0;
+
+
+}
+
 
 .cima{
     margin-top: 30px;
